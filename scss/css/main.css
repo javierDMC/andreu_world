@@ -361,6 +361,14 @@ table {
   border-spacing: 0;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .l-flex {
   display: flex;
   flex-direction: row;
@@ -392,11 +400,23 @@ table {
   margin: 10px;
   text-decoration: none;
   cursor: pointer;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.c-menu__item--submenu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 .c-menu__logo {
   display: block;
-  width: 130px;
-  height: 26px;
+  width: 200px;
+  height: 50px;
+  margin: 50px;
+}
+
+.c-body {
+  font-family: Helvetica, sans-serif;
+  color: #e4a23f;
 }
 
 .g--margin-0 {
@@ -749,6 +769,18 @@ table {
 
 .g--fontSize-10 {
   margin: 50px;
+}
+
+.backgroud-rojo {
+  background-color: #FF0000;
+}
+
+.backgroud-verde {
+  background-color: #00FF00;
+}
+
+.backgroud-azul {
+  background-color: #0000FF;
 }
 
 /*# sourceMappingURL=main.css.map */

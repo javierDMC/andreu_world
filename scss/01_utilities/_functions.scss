@@ -9,3 +9,4 @@
 @function getFontSize($key){
     @return unquote(map-get($fontSize,""+$key));
 }
+

@@ -1,0 +1,11 @@
+@function getPadding($key){
+    @return unquote(map-get($paddings,""+$key));
+}
+
+@function getMargin($key){
+    @return unquote(map-get($margins,""+$key));
+}
+
+@function getFontSize($key){
+    @return unquote(map-get($fontSize,""+$key));
+}

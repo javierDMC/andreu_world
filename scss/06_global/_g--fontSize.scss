@@ -1,0 +1,8 @@
+@for $i from 0 to length($fontSize-values) {
+
+    $tamano: nth($fontSize-values, $i + 1);
+
+    .g--fontSize-#{$i} {
+        margin: $tamano;
+    }
+}

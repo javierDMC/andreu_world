@@ -1,0 +1,33 @@
+@for $i from 0 to length($margin-values) {
+
+    $tamano: nth($margin-values, $i + 1);
+
+    .g--margin-#{$i} {
+        margin: $tamano;
+    }
+
+    .g--margin-left-#{$i} {
+        margin: $tamano;
+    }
+
+    .g--margin-right-#{$i} {
+        margin: $tamano;
+    }
+
+    .g--margin-top-#{$i} {
+        margin: $tamano;
+    }
+
+    .g--margin-bottom-#{$i} {
+        margin: $tamano;
+    }
+
+    .g--margin-vertical-#{$i} {
+        margin: $tamano;
+    }
+
+    .g--margin-horizontal-#{$i} {
+        margin: $tamano;
+    }
+
+}

@@ -783,4 +783,32 @@ html {
   background-color: #0000FF;
 }
 
+.g--padding-3px {
+  padding: 3px;
+}
+
+.g--padding-6px {
+  padding: 6px;
+}
+
+.g--padding-7px {
+  padding: 7px;
+}
+
+.g--padding-9px {
+  padding: 9px;
+}
+
+.g--mapa-enero {
+  color: red;
+}
+
+.g--keys-a {
+  color: aliceblue;
+}
+
+.g--keys-b {
+  color: aliceblue;
+}
+
 /*# sourceMappingURL=main.css.map */

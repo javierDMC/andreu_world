@@ -1,3 +1,25 @@
 .l-flex{
     display: flex;
+    flex-direction: row;
+
+    &--right{
+        justify-content: flex-end;
+    }
+
+    &--left{
+        justify-content: flex-start;
+    }
+
+    &--jc-sb{
+        justify-content: space-between;
+    }
+
+    &--jc-fs{
+        justify-content: flex-start;
+    }
+
+    &--jc-fs{
+        justify-content: flex-end;
+    }
+
 }

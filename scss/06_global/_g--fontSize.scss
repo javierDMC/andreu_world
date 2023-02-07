@@ -3,6 +3,6 @@
     $tamano: nth($fontSize-values, $i + 1);
 
     .g--fontSize-#{$i} {
-        margin: $tamano;
+        font-size: $tamano;
     }
 }

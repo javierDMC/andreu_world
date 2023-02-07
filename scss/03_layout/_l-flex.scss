@@ -14,12 +14,8 @@
         justify-content: space-between;
     }
 
-    &--jc-fs{
-        justify-content: flex-start;
-    }
-
-    &--jc-fs{
-        justify-content: flex-end;
+    &--jc-sa{
+        justify-content: space-around;
     }
 
 }

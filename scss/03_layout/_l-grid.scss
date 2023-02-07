@@ -1,0 +1,16 @@
+.l-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    &__menu{
+        display: grid;
+        grid-template-columns:  repeat(6, auto);
+    }
+
+    &__idioma{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+   
+}
